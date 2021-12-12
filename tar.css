@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+	
+}
+.cotainer{
+    background:url("rn.jpg") ;
+}
+/* header start*/
+.header {
+	background: url("83.jpg") no-repeat center/cover ;
+	width: 100%;
+	height: 100vh;
+}
+.amra2{
+	padding: 10px;
+}
+.amra{
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+/* .amra h1{
+    font-size: 40px;
+} */
+.discription {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 12vh;
+}
+.discription p {
+    flex-basis: 60%;
+    font-size: 20px;
+}
+.button-box1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.btn1 {
+    padding: 20px;
+    width: 225px;
+    background: #005476;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin:5px;
+}
+/* header end*/
+
+/* from start*/
+.mid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+}
+
+.form1 {
+    background: url("40.jpg");
+    padding: 70px;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.input_field {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+	margin-left: 40px;
+}
+.input_fields{
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	margin-left: 40px;
+}
+.input_field label {
+    color: black;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #2000ff, 0 0 82px #0800ff, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #2c00ff;
+    animation: flicker 1.5s infinite alternate;
+    font-size: 20px;
+    flex-basis: 30%;
+}
+.input_fields label {
+    color: black;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #2000ff, 0 0 82px #0800ff, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #2c00ff;
+    animation: flicker 1.5s infinite alternate;
+    font-size: 20px;
+    flex-basis: 30%;
+}
+
+input {
+    border-radius: 3px;
+    flex-basis: 60%;
+    border: none;
+    padding: 5px;
+	font-size: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+#select-box{
+	border-radius: 3px;
+    flex-basis: 60%;
+    border: none;
+    padding: 5px;
+	font-size: 15px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.button-box2{
+	display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.btn2{
+	padding: 10px;
+    width: 110px;
+    background: #005476;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px ligh
+}
+
+/* from end*/
+
+/*footer start*/
+.footer {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Poppins', sans-serif;
+	background: #005476;
+}
+.footerup {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    flex-flow: wrap;
+    margin-top: 20px;
+}
+.footerleft {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 30%;
+    margin-left: 25px;
+}
+.footertitleleft{
+    margin-bottom: 10px;
+}
+.footertitleleft h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    border-bottom: 1px solid #F26321;
+    width: 74px;
+}
+.footermenu{
+    text-align: start;
+}
+.footermenu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.footermenu ul li{
+    font-size: 15px;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.footermenu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footermid {
+	flex-basis: 30%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footermid img {
+	width: 100px;
+	height: 100px;
+}
+.footerright {
+	flex-basis: 30%;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	margin-right: 25px;
+}
+.footertitleright{
+    margin-bottom: 10px;
+}
+.footertitleright h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 25px;
+	border-bottom: 1px solid #F26321;
+
+}
+
+.embox {
+    height: 25px;
+    width: 200px;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+.embox1 {
+    height: 80px;
+    width: 200px;
+    padding: 25px;
+    margin-bottom: 10px;
+}
+.btnf {
+    padding: 5px;
+    background: none;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footerdown {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footerdown p {
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+/*footer end*/
+
+@media (max-width:1030px) {
+	/*header-start*/
+
+	/*header-end*/
+
+	.header {
+        width: 100%;
+		height: 100vh;
+	}
+
+	.discription {
+
+		margin-top: 60px;
+	}
+
+	.discription p {
+		font-size: 11px;
+	}
+    .amra{
+        font-size: 20px;
+    }
+
+	.btn {
+		padding: 10px;
+		width: 120px;
+		font-size: 12px;
+	}
+	.btn1 {
+        padding: 2px;
+        width: 100px;
+        height:30px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        margin:5px;
+	}
+    .button-box1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+	.form1 {
+        padding-top:30px;
+        padding-bottom:15px;
+        padding-left:0px;
+        padding-right:0px;
+		width: 90%;
+	}
+	.input_field {
+		margin-bottom: 20px;
+	}
+	.input_fields {
+		margin-bottom: 20px;
+	}
+    .input_field label {
+        font-size: 10px;
+    }
+    .input_fields label {
+        font-size: 10px;
+    }
+    input {
+        padding: 5px;
+        font-size: 10px;
+    }
+    #select-box{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .btn2{
+        
+        font-size: 15px;
+        width: 100px;
+    }
+	.footerup {
+		margin-top: 20px;
+	}
+
+	/*footer-start*/
+	.footerleft {
+		flex-basis: 100%;
+		margin-left: 0px;
+		align-items: center;
+	}
+	.footermenu {
+		text-align: start;
+		margin-left: 20px;
+	}
+	.footermenu{
+		text-align: center;
+	}
+
+	.footermid {
+		flex-basis: 100%;
+		margin-top: 20px;
+
+	}
+	.footerright {
+		align-items: center;
+		flex-basis: 100%;
+		margin-top: 20px;
+		margin-right: 0px;
+	}
+    .footerdown p{
+        font-size: 15px;
+    }
+	/*footer-end*/
+}
