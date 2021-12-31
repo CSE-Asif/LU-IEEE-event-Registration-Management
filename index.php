@@ -107,10 +107,10 @@
                     </div>
                     <div class="footermenu">
                         <ul>
-                            <li><a href="">Halka Hot event</a></li>
-                            <li><a href="">halka cool event</a></li>
-                            <li><a href="">halka norom event</a></li>
-                            <li><a href="">halka kosha event</a></li>
+                            <li><a href="#">Past event- 1</a></li>
+                            <li><a href="#">Past event- 2</a></li>
+                            <li><a href="#">Past event- 3</a></li>
+                            <li><a href="#">Past event- 4</a></li>
                         </ul>
                     </div>
                 </div>
